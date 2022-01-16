@@ -8,6 +8,7 @@ import AppPractice from './08-practice-project/AppPractice';
 import AppFragmentPortal from './09-fragments-portals-refs/AppFragmentPortal';
 import AppContext from './10-side-effects-reducers-context-api/AppContext';
 import AppOptimize from './12-a-look-behind-the-scenes/AppOptimize';
+import AppClassBased from './13-class-based-cmp/AppClassBased';
 
 import './App.css';
 
@@ -23,6 +24,7 @@ function App() {
       <Route path='/app-fragment-portal' element={<AppFragmentPortal />} />
       <Route path='/app-context' element={<AppContext />} />
       <Route path='/app-optimize' element={<AppOptimize />} />
+      <Route path='/app-class-based' element={<AppClassBased />} />
     </Routes>
   );
 }
