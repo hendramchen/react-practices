@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import NewExpense from './NewExpense';
 import Expenses from './Expenses';
+import Breadcrumb from '../components/Breadcrumb';
 
 const DUMMY_EXPENSES = [
   {
@@ -43,6 +44,7 @@ const AppExpense3 = () => {
 
   return (
     <div>
+      <Breadcrumb title='05) Rendering Lists and Conditional Content' />
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>

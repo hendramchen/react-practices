@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import CourseGoalList from './components/CourseGoals/CourseGoalList/CourseGoalList';
 import CourseInput from './components/CourseGoals/CourseInput/CourseInput';
+import Breadcrumb from '../components/Breadcrumb';
 import './AppStyling.css';
 
 const AppStyling = () => {
@@ -37,6 +38,7 @@ const AppStyling = () => {
 
   return (
     <div>
+      <Breadcrumb title='06) Styling React Component' />
       <section id="goal-form">
         <CourseInput onAddGoal={addGoalHandler} />
       </section>

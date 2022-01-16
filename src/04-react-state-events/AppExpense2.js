@@ -2,6 +2,7 @@ import React from 'react';
 
 import NewExpense from './NewExpense/NewExpense';
 import Expenses from './Expenses';
+import Breadcrumb from '../components/Breadcrumb';
 
 const AppExpense2 = () => {
   const expenses = [
@@ -33,6 +34,7 @@ const AppExpense2 = () => {
 
   return (
     <div>
+      <Breadcrumb title='04) React State and Working with Events' />
       <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses items={expenses} />
     </div>

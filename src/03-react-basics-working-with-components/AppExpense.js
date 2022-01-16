@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Expenses from './components/Expenses/Expenses';
+import Breadcrumb from '../components/Breadcrumb';
 
 const AppExpense = () => {
   const expenses = [
@@ -27,6 +28,7 @@ const AppExpense = () => {
 
   return (
     <div>
+      <Breadcrumb title='03) React Basics and Working with Component' />
       <Expenses items={expenses} />
     </div>
   );

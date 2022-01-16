@@ -1,5 +1,23 @@
-.lecture {
-  margin: 1em 0;
-  padding: 0;
-  border-bottom: 1px solid #999;
+.home {
+  margin: 1em;
+}
+
+.link, .breadcrumb {
+  background-color: #EEE;
+  padding: 1em;
+  margin: 5px;
+  display: block;
+  text-decoration: none;
+  font: bold;
+  color: #474747;
+}
+
+.breadcrumb .backlink {
+  color: #575757;
+  text-decoration: none;
+}
+
+.breadcrumb .active {
+  color: #006de9;
+  font-weight: bold;
 }
