@@ -8,6 +8,8 @@ const lectures = [
     { goTo: 'app-styling', title: '06) Styling React Component'},
     { goTo: 'app-practice', title: '08) Practice Project'},
     { goTo: 'app-fragment-portal', title: '09) Diving Deeper: Working with Fragments, Portals and Refs'},
+    { goTo: 'app-context', title: '10) Advanced: Handling Side Effects, Using Reducers and Using the Context API'},
+    { goTo: 'app-optimize', title: '12) A Look Behind The Scenes Of React and Optimization Techniques'}
 ];
 
 const Home = () => {

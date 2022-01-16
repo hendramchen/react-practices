@@ -6,6 +6,8 @@ import AppExpense3 from './05-rendering-lists-conditional-content/AppExpense3';
 import AppStyling from './06-styling/AppStyling';
 import AppPractice from './08-practice-project/AppPractice';
 import AppFragmentPortal from './09-fragments-portals-refs/AppFragmentPortal';
+import AppContext from './10-side-effects-reducers-context-api/AppContext';
+import AppOptimize from './12-a-look-behind-the-scenes/AppOptimize';
 
 import './App.css';
 
@@ -19,6 +21,8 @@ function App() {
       <Route path='/app-styling' element={<AppStyling />} />
       <Route path='/app-practice' element={<AppPractice />} />
       <Route path='/app-fragment-portal' element={<AppFragmentPortal />} />
+      <Route path='/app-context' element={<AppContext />} />
+      <Route path='/app-optimize' element={<AppOptimize />} />
     </Routes>
   );
 }
