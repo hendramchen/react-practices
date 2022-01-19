@@ -9,6 +9,9 @@ import AppFragmentPortal from './09-fragments-portals-refs/AppFragmentPortal';
 import AppContext from './10-side-effects-reducers-context-api/AppContext';
 import AppOptimize from './12-a-look-behind-the-scenes/AppOptimize';
 import AppClassBased from './13-class-based-cmp/AppClassBased';
+import AppHttp from './14-sending-http-requests/AppHttp';
+import AppCustomHooks from './15-building-custom-react-hooks/AppCustomHooks';
+import AppForms from './16-working-with-forms/AppForms';
 
 import './App.css';
 
@@ -25,6 +28,9 @@ function App() {
       <Route path='/app-context' element={<AppContext />} />
       <Route path='/app-optimize' element={<AppOptimize />} />
       <Route path='/app-class-based' element={<AppClassBased />} />
+      <Route path='/app-http' element={<AppHttp />} />
+      <Route path='/app-custom-hooks' element={<AppCustomHooks />} />
+      <Route path='/app-forms' element={<AppForms />} />
     </Routes>
   );
 }

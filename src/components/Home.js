@@ -10,7 +10,10 @@ const lectures = [
     { goTo: 'app-fragment-portal', title: '09) Diving Deeper: Working with Fragments, Portals and Refs'},
     { goTo: 'app-context', title: '10) Advanced: Handling Side Effects, Using Reducers and Using the Context API'},
     { goTo: 'app-optimize', title: '12) A Look Behind The Scenes Of React and Optimization Techniques'},
-    { goTo: 'app-class-based', title: '13) An Alternative Way Of Building Components: Class-based Components'}
+    { goTo: 'app-class-based', title: '13) An Alternative Way Of Building Components: Class-based Components'},
+    { goTo: 'app-http', title: 'Sending Http Request'},
+    { goTo: 'app-custom-hooks', title: 'Building Custom React Hooks'},
+    { goTo: 'app-forms', title: 'Working with Form & User Input'},
 ];
 
 const Home = () => {

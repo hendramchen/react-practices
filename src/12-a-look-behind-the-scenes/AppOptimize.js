@@ -6,7 +6,11 @@ import Button from './components/UI/Button/Button';
 
 function AppOptimize() {
   const [listTitle, setListTitle] = useState('My List');
-
+  // everytime component re-render, function will recreated
+  // to prevent this, we should useCallback
+  // once we add useCallback for changeTitleHandler
+  // Button component will not re-render, but 
+  // Button component also have to use React.memo
   const changeTitleHandler = useCallback(() => {
     setListTitle('New Title');
   }, []);
