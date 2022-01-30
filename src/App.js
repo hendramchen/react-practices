@@ -12,6 +12,7 @@ import AppClassBased from './13-class-based-cmp/AppClassBased';
 import AppHttp from './14-sending-http-requests/AppHttp';
 import AppCustomHooks from './15-building-custom-react-hooks/AppCustomHooks';
 import AppForms from './16-working-with-forms/AppForms';
+import AppRedux from './18-diving-into-redux/AppRedux';
 
 import './App.css';
 
@@ -31,6 +32,7 @@ function App() {
       <Route path='/app-http' element={<AppHttp />} />
       <Route path='/app-custom-hooks' element={<AppCustomHooks />} />
       <Route path='/app-forms' element={<AppForms />} />
+      <Route path='/app-redux' element={<AppRedux />} />
     </Routes>
   );
 }
