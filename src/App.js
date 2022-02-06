@@ -13,6 +13,7 @@ import AppHttp from './14-sending-http-requests/AppHttp';
 import AppCustomHooks from './15-building-custom-react-hooks/AppCustomHooks';
 import AppForms from './16-working-with-forms/AppForms';
 import AppRedux from './18-diving-into-redux/AppRedux';
+import AppAdvanceRedux from './19-advanced-redux/AppAdvanceRedux';
 
 import './App.css';
 
@@ -33,6 +34,7 @@ function App() {
       <Route path='/app-custom-hooks' element={<AppCustomHooks />} />
       <Route path='/app-forms' element={<AppForms />} />
       <Route path='/app-redux' element={<AppRedux />} />
+      <Route path='/app-adv-redux' element={<AppAdvanceRedux />} />
     </Routes>
   );
 }

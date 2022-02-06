@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialCounterState = { counter: 0, showCounter: true };
-
+// by leveraging redux toolkit, we no need "switch", "deep clone", and "action" explicitly. 
 const counterSlice = createSlice({
   name: 'counter',
   initialState: initialCounterState,

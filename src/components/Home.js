@@ -14,7 +14,8 @@ const lectures = [
     { goTo: 'app-http', title: '14) Sending Http Request'},
     { goTo: 'app-custom-hooks', title: '15) Building Custom React Hooks'},
     { goTo: 'app-forms', title: '16) Working with Form & User Input'},
-    { goTo: 'app-redux', title: '18) Diving into Redux'}
+    { goTo: 'app-redux', title: '18) Diving into Redux'},
+    { goTo: 'app-adv-redux', title: '19) Advanced Redux'}
 ];
 
 const Home = () => {
