@@ -15,7 +15,8 @@ const lectures = [
     { goTo: 'app-custom-hooks', title: '15) Building Custom React Hooks'},
     { goTo: 'app-forms', title: '16) Working with Form & User Input'},
     { goTo: 'app-redux', title: '18) Diving into Redux'},
-    { goTo: 'app-adv-redux', title: '19) Advanced Redux'}
+    { goTo: 'app-adv-redux', title: '19) Advanced Redux'},
+    { goTo: 'app-react-router', title: '20) Building a Multi-Page SPA with React Router'}
 ];
 
 const Home = () => {

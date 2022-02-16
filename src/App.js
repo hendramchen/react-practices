@@ -14,6 +14,7 @@ import AppCustomHooks from './15-building-custom-react-hooks/AppCustomHooks';
 import AppForms from './16-working-with-forms/AppForms';
 import AppRedux from './18-diving-into-redux/AppRedux';
 import AppAdvanceRedux from './19-advanced-redux/AppAdvanceRedux';
+import AppReactRouter from './20-building-mpas-with-react-router/AppReactRouter';
 
 import './App.css';
 
@@ -35,6 +36,7 @@ function App() {
       <Route path='/app-forms' element={<AppForms />} />
       <Route path='/app-redux' element={<AppRedux />} />
       <Route path='/app-adv-redux' element={<AppAdvanceRedux />} />
+      <Route path='/app-react-router' element={<AppReactRouter />} />
     </Routes>
   );
 }
